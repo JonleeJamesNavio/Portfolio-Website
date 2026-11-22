@@ -57,7 +57,6 @@ const projects = [
     ],
     images: [
       "assets/projects/liberty.png",
-      "assets/projects/Liberty1.png",
       "assets/projects/Liberty2.png",
     ],
   },
