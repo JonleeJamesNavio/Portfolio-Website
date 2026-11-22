@@ -1,187 +1,76 @@
-# 🚀 Jonlee James R. Navio — AI Automation Specialist & Workflow Engineer
+# Jonlee James R. Navio | Portfolio
 
-Welcome to my personal portfolio repository.
-This project showcases my experience designing, building, and operating **AI-powered automation systems**, end-to-end workflows, and production-ready integrations.
+Personal portfolio for an **Automation & AI Systems Specialist**. It shows potential clients the systems I build: CRM architecture, data pipelines, and AI-powered workflows that turn manual work into something that just runs.
 
-🔗 **Live Portfolio:**https://jonleenavio.vercel.app/**
-📄 **Resume:** Available in the repository (`assets/resume/JonleeJamesNavio_Resume.pdf`)
+**Live site:** https://jonleenavio.vercel.app
 
----
+## What's on the site
 
-## 👋 About Me
+- **About:** who I am, what I build, and a downloadable resume
+- **Skills:** six capability areas ("Systems I Build"), a Systems Stack with tool logos, and a six-step "How I Work" process
+- **Projects:** a coverflow gallery of seven builds, each with a detail view (screenshots, at-a-glance stats, tech stack)
+- **Experience:** a timeline of roles, including AGAVA Pty Ltd | Get Scaled (current)
+- **Awards & Trainings:** Employee of the Quarter (Q1 2026), HighLevel LIVE in Manila 2026, and the AI4AI webinar
+- **Contact:** message form and a Google Calendar booking tab for a 30-minute intro call
 
-I’m an **AI Automation Specialist** focused on building intelligent workflows that eliminate manual effort, reduce errors, and scale operations.
+## Featured projects
 
-My work sits at the intersection of:
+| Project | Tools |
+| --- | --- |
+| Meta Ads to Monday.com Data Pipeline | Make.com, Monday.com, Meta API, Google Sheets |
+| Budget-Aware Expense Tracker | Make.com, Telegram, OpenAI, Google Sheets, Gmail |
+| Oas Volleyball Alliance Messenger Assistant | Make.com, Messenger, Telegram, Meta API |
+| RAG Support Chatbot with Source Citations & Human Handoff | n8n, Docker, Gemini, Supabase, Google Drive |
+| AI Calendar Assistant with Memory | n8n, Telegram, Google Calendar, OpenAI |
+| Messenger Food Order Assistant | n8n, Messenger, Telegram, Google Sheets, Meta API |
+| Instant Lead Response & AI Qualification System | Zapier, HubSpot, Google Forms, Slack, Gmail |
 
-* Automation platforms (Make, n8n, Zapier)
-* Backend scripting (Python, JavaScript)
-* LLM-powered systems (OpenAI, Claude, Gemini)
-* API integrations and operational tooling
+## Built with
 
-I specialize in **end-to-end automation**, from system design and data processing to monitoring, error handling, and documentation.
+Plain HTML, CSS, and JavaScript, with no framework and no build step.
 
----
+- Fonts: Space Grotesk, Poppins, IBM Plex Mono (Google Fonts)
+- Dark mode by default, with a light/dark toggle that remembers your choice
+- Responsive layout and reduced-motion support
 
-## 🧠 Core Competencies
+## Project structure
 
-* End-to-End Automation Design
-* AI Workflow Engineering & Prompt Structuring
-* API & System Integration
-* Data Processing & Reporting Pipelines
-* Error Handling, Monitoring & Recovery
-* Workflow Documentation & SOP Creation
-
----
-
-## 🛠️ Tech Stack & Tools
-
-### Automation Platforms
-
-* **Make.com** (Production-grade workflows)
-* **n8n (Self-Hosted)** (Docker-based automation)
-* **Zapier** (Rapid integrations)
-
-### AI & LLM Systems
-
-* **OpenAI (ChatGPT / GPT-4)**
-* **Claude AI**
-* **Gemini**
-* Structured Outputs & JSON Schemas
-* Tool Calling & Multi-step Reasoning
-
-### Backend & Data
-
-* **Python**
-* **JavaScript (Node.js)**
-* **PostgreSQL / SQL**
-* **Webhooks & REST APIs**
-
-### Cloud & Infrastructure
-
-* **Docker**
-* **Linux (Ubuntu VPS)**
-* OAuth 2.0 Authentication
-* API Token Management
-
-### Ops & Documentation
-
-* **Notion**
-* **Monday.com**
-* **Google Workspace**
-* Monitoring, Alerts & Logging
-
----
-
-## 📂 Featured Projects
-
-### 🔹 Meta Ad Campaign Data Processing & Reporting System
-
-**Client:** Music Marketing Agency
-
-* Automated daily data extraction from Meta Ads
-* Calculated KPIs and updated reports automatically
-* Saved **5–8 staff hours per week**
-* Reduced human error and improved data accuracy
-
-**Stack:** Make.com, Monday.com, Google Sheets, Meta API, Claude AI, OpenAI
-
----
-
-### 🔹 Expense Tracking System with Telegram & AI
-
-**Type:** Personal Project
-
-* Logged expenses via Telegram messages
-* Used AI to parse natural language transactions
-* Stored data in Google Sheets
-* Sent real-time confirmations
-
-**Stack:** Make.com, Telegram, Google Sheets, Claude AI, OpenAI
-
----
-
-### 🔹 AI Messenger Assistant (Oas Volleyball Alliance)
-
-* Automated message replies
-* Logged conversations into structured records
-* Improved communication consistency and response time
-
-**Stack:** Make.com, Messenger, Telegram, Meta API, Claude AI
-
----
-
-### 🔹 Calendar Management AI Agent
-
-* Managed Google Calendar using voice or text commands
-* Telegram bot + GPT-4 integration
-* Intelligent create, update, and delete actions
-
----
-
-### 🔹 Automated Email Filtering & AI Summarization
-
-* Categorized and prioritized incoming emails
-* Generated concise AI-powered summaries
-* Improved inbox efficiency
-
----
-
-### 🔹 AI-Powered Food Order Processing System
-
-**Client:** Small Business
-
-* Automated Facebook Messenger ordering
-* Validated inventory and business hours
-* Logged orders and notified staff instantly
-
-**Stack:** n8n, Messenger, Telegram, Google Sheets, Google Calendar, Claude AI
-
----
-
-## 🧩 Project Structure
-
-```bash
-├── index.html        # Main portfolio page
-├── style.css         # Styling and animations
-├── script.js         # Interactivity, modals, project logic
-├── assets/
-│   ├── images/       # Icons, photos, tech logos
-│   ├── projects/     # Project screenshots
-│   └── resume/       # Resume PDF
+```
+Portfolio-Website/
+├── index.html      # page structure and content
+├── style.css       # design system, layout, themes
+├── script.js       # gallery, project modal, theme toggle, tabs, slideshows
+└── assets/
+    ├── images/     # logos, portrait, certificates
+    ├── projects/   # project screenshots
+    └── resume/     # Navio_Resume.pdf
 ```
 
----
+## Run locally
 
-## 🚀 Running Locally
-
-This portfolio is a static site. To run locally:
+No install needed. Open `index.html` in a browser, or serve the folder:
 
 ```bash
-git clone https://github.com/yourusername/your-portfolio-repo.git
-cd your-portfolio-repo
-open index.html
+python -m http.server 8000
 ```
 
-Or simply open `index.html` in your browser.
+Then visit http://localhost:8000.
 
----
+## Updating content
 
-## 📬 Contact
+- **Add a project:** add an entry to the `projects` array in `script.js`, add one line to `galleryItems`, and optionally add stats and captions in `projectExtras`.
+- **Update the resume:** replace `assets/resume/Navio_Resume.pdf`. Both download buttons point to that path.
+- **Image paths are case-sensitive** when deployed, so file names must match the code exactly.
 
-* **Email:** [naviojonleejames@gmail.com](mailto:naviojonleejames@gmail.com)
-* **Phone:** +63 991 722 6275
-* **Location:** Oas, Albay, Philippines
-* **LinkedIn:** [https://linkedin.com/in/jonlee-james-navio](https://linkedin.com/in/jonlee-james-navio)
-* **GitHub:** [https://github.com/jonleejamesnavio](https://github.com/jonleejamesnavio)
+## Deployment
 
----
+Hosted on Vercel and connected to this repository, so every push to `main` redeploys automatically. No build command or output directory is needed.
 
-## 📄 License
+## Contact
 
-This project is for **personal portfolio use**.
-Feel free to explore the code, but please do not reuse the design or content without permission.
+- Email: naviojonleejames@gmail.com
+- LinkedIn: https://www.linkedin.com/in/jonlee-james-navio-31a5982b2/
+- GitHub: https://github.com/JonleeJamesNavio
+- Location: Oas, Albay, Philippines
 
----
-
-⭐ If you found this interesting, feel free to star the repository!
+&copy; 2026 Jonlee James R. Navio. All rights reserved.
